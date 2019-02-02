@@ -1,0 +1,237 @@
+/* 
+TO-DOs:
+
+* Try Raleway instead of Monsterrat
+* Add fontawesome icons in contact area
+* Change bg-primary
+
+*/
+
+
+/* 
+========= Font & Sizes =========
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,700');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700i,900i');
+
+html { font-size: 14px; }
+
+// Small devices (landscape phones)
+@media screen and (min-width: 576px) { 
+  html { font-size: 16px; }
+ };
+
+// Medium devices (tablets)
+@media screen and (min-width: 768px) { 
+  html { font-size: 18px; }
+ };
+
+// Large devices (desktops)
+@media screen and (min-width: 992px) { 
+  html { font-size: 20px; }
+ };
+
+// Extra large devices (large desktops)
+@media screen and (min-width: 1200px) { 
+  html { font-size: 24px; }
+ };
+
+@media screen and (min-width: 1824px) { 
+  html { font-size: 36px; }
+ };
+
+/* 
+========= Global =========
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #3b3b3b;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#welcome {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+div.container-fluid { 
+  padding: 0;
+}
+
+section {
+ padding: 3rem 1rem;
+ min-height: 50vh;
+}
+
+/* 
+========= Video =========
+*/
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') black no-repeat center center scroll;
+    background-size: cover;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/* 
+========= Welcome =========
+*/
+
+#welcome {
+  /* background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') no-repeat center center;
+  background-size: cover; */
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#message {
+  color: white;
+  font-style: italic;
+  align-self: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+#message > h1 { 
+  font-size: 5rem; 
+  font-weight: 900;
+}
+
+#message > h2 { 
+  font-size: 3rem; 
+  font-weight: 700;
+}
+
+/* 
+========= Who I Am =========
+*/
+
+section#who {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+section#who>div.row {
+  align-self: center;
+  justify-content: center;
+}
+
+/* 
+========= What I Do =========
+*/
+
+#what img {
+  width: 50%;
+  margin: 1.5rem 0;
+}
+
+section#what p.lead {
+  text-align: center;
+}
+
+section#what div.col-12, 
+section#what div.col-md-3 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+img.icon {
+  align-self: center;
+}
+
+/* 
+========= Stuff =========
+*/
+
+/* 
+========= Contact =========
+*/
+
+section#contact {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#contact .lead {
+ margin: 1.5rem auto;
+ max-width: 75rem;
+ align-self: center;
+}
+
+#contact a {
+  max-width: 10rem;
+  align-self: center;
+}
+
+
+/* 
+========= Footer =========
+*/
+
+footer { margin: 1rem;}
+footer small a,
+footer small a:hover {
+	font-weight: 700;
+	text-decoration: none;
+}
