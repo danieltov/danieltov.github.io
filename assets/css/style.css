@@ -251,9 +251,11 @@ ul#socials li a:hover {
   text-decoration: none;
 }
 
-ul#socials li a:hover {
-  border: thin solid teal;
-  border-radius: 30px;
+@media screen and (min-width: 992px) {
+  ul#socials li a:hover {
+    border: thin solid teal;
+    border-radius: 30px;
+  }
 }
 
 #contact .lead {
