@@ -210,6 +210,10 @@ img.icon {
 ========= Stuff =========
 */
 
+#stuff h1 {
+  color: white;
+}
+
 div.card.border-primary {
   border-color: #3b3b3b!important;
 }
