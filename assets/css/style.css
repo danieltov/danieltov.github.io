@@ -5,36 +5,47 @@ TO-DOs:
 
 */
 
-
 /* 
 ========= Sizes =========
 */
 
-html { font-size: 14px; }
+html {
+  font-size: 14px;
+}
 
 // Small devices (landscape phones)
-@media screen and (min-width: 576px) { 
-  html { font-size: 16px; }
- };
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
 
 // Medium devices (tablets)
-@media screen and (min-width: 768px) { 
-  html { font-size: 18px; }
- };
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
 
 // Large devices (desktops)
-@media screen and (min-width: 992px) { 
-  html { font-size: 20px; }
- };
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
 
 // Extra large devices (large desktops)
-@media screen and (min-width: 1200px) { 
-  html { font-size: 24px; }
- };
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 24px;
+  }
+}
 
-@media screen and (min-width: 1824px) { 
-  html { font-size: 36px; }
- };
+@media screen and (min-width: 1824px) {
+  html {
+    font-size: 36px;
+  }
+}
 
 /* 
 ========= Global =========
@@ -55,9 +66,13 @@ body {
   padding: 0;
 }
 
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -69,17 +84,17 @@ a:hover {
   color: teal;
 }
 
-div.container-fluid { 
+div.container-fluid {
   padding: 0;
 }
 
 section {
- padding: 3rem 1rem;
- min-height: 50vh;
+  padding: 3rem 1rem;
+  min-height: 50vh;
 }
 
 .bg-primary {
-  background:#3b3b3b!important;
+  background: #3b3b3b !important;
 }
 
 /* 
@@ -88,7 +103,7 @@ section {
 
 header {
   position: relative;
-  background-color:#3b3b3b;
+  background-color: #3b3b3b;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -128,7 +143,8 @@ header .overlay {
 
 @media only screen and (max-width: 576px) {
   header {
-    background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') #3b3b3b no-repeat center center scroll;
+    background: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80")
+      #3b3b3b no-repeat center center scroll;
     background-size: cover;
   }
   header video {
@@ -155,16 +171,16 @@ header .overlay {
   font-style: italic;
   align-self: center;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
-#message > h1 { 
-  font-size: 5rem; 
+#message > h1 {
+  font-size: 5rem;
   font-weight: 900;
 }
 
-#message > h2 { 
-  font-size: 3rem; 
+#message > h2 {
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -187,7 +203,7 @@ section#who {
   color: white;
 }
 
-section#who>div.row {
+section#who > div.row {
   align-self: center;
   justify-content: center;
 }
@@ -205,7 +221,7 @@ section#what p.lead {
   text-align: center;
 }
 
-section#what div.col-12, 
+section#what div.col-12,
 section#what div.col-md-3 {
   display: flex;
   flex-flow: column nowrap;
@@ -224,7 +240,7 @@ img.icon {
 }
 
 div.card.border-primary {
-  border-color: #3b3b3b!important;
+  border-color: #3b3b3b !important;
 }
 
 /* 
@@ -246,7 +262,7 @@ div.contact-container {
 
 ul#socials li {
   display: table;
-  margin: 1rem 1rem 1rem -.5rem;
+  margin: 1rem 1rem 1rem -0.5rem;
 }
 
 ul#socials li a {
@@ -271,12 +287,12 @@ ul#socials li a:hover {
   margin: 1.5rem auto;
   max-width: 75rem;
   align-self: center;
- }
- 
- #contact a {
-   max-width: 10rem;
-   align-self: center;
- }
+}
+
+#contact a {
+  max-width: 10rem;
+  align-self: center;
+}
 
 section#contact form {
   align-self: center;
@@ -286,17 +302,19 @@ section#contact form {
 }
 
 form button.btn-primary {
-  background-color: teal!important;
-  border-color: teal!important;
+  background-color: teal !important;
+  border-color: teal !important;
 }
 
 /* 
 ========= Footer =========
 */
 
-footer { margin: 1rem;}
+footer {
+  margin: 1rem;
+}
 footer small a,
 footer small a:hover {
-	font-weight: 700;
-	text-decoration: none;
+  font-weight: 700;
+  text-decoration: none;
 }
