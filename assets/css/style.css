@@ -1,6 +1,7 @@
 /* 
 TO-DOs:
 
+-- dotted underline spans in hero text!
 
 */
 
@@ -165,6 +166,13 @@ header .overlay {
 #message > h2 { 
   font-size: 3rem; 
   font-weight: 700;
+}
+
+#message span {
+  background-image: linear-gradient(to right, white 50%, transparent 50%);
+  background-position: 0 1.15em;
+  background-repeat: repeat-x;
+  background-size: 10px 3px;
 }
 
 /* 
