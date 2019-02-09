@@ -1,194 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
+    <title>Web Developer &mdash; Daniel Tovar</title>
 
-		<title>Web Developer &mdash; Daniel Tovar</title>
+    <!-- METAS -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Daniel is a front end developer producing fast and sexy websites."
+    />
 
-		<!-- METAS -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Daniel is a front end developer producing fast and sexy websites.">
+    <!-- FONTS  -->
 
-		<!-- FONTS  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:900i|Raleway:400,700"
+      rel="stylesheet"
+    />
 
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i|Raleway:400,700" rel="stylesheet">
+    <!-- BOOTSTRAP CDN -->
 
-		<!-- BOOTSTRAP CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
 
-		<!-- FONT AWESOME -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
-		<!-- CUSTOM CSS -->
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-
-		<!--[if IE]>
+    <!--[if IE]>
 			<script src="src="http://html5shim.googlecode.com/svn/trunk/html5.js""></script>
 		<![endif]-->
-		<base target="_blank">
+    <base target="_blank" />
+  </head>
 
-	</head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="assets/video/bg3.mp4" type="video/mp4" />
+      </video>
+      <section id="welcome" class="container-fluid">
+        <div id="message">
+          <h1>Hey. I'm Daniel.</h1>
+          <h2>
+            I'm a
+            <span
+              data-toggle="tooltip"
+              data-html="true"
+              title="<h3><em>Sorta</em></h3>"
+              >web developer</span
+            >
+            &amp;
+            <span
+              data-toggle="tooltip"
+              data-html="true"
+              title="<h3><em>Sometimes</em></h3>"
+              >student</span
+            >
+            living in Utah Valley.
+          </h2>
+        </div>
+      </section>
+    </header>
 
-	<body>
+    <div class="container-fluid">
+      <!-- Who I am -->
+      <section id="who" class="bg-primary">
+        <h1>
+          I like building websites. I started as a kid &mdash; and I never
+          stopped.
+        </h1>
+        <div class="row">
+          <div class="col-12 col-md-9">
+            <p class="lead">
+              I have 10 years of experience as a jack-of-all-trades managing
+              <a
+                class="text-white"
+                href="http://prettymuchamazing.com/"
+                target="_blank"
+                >a popular music blog</a
+              >, which taught me valuable skills with
+              <strong
+                >HTML, CSS, QA, UX, content creation, content management,
+                digital marketing, social media marketing, and project
+                management</strong
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- What I do -->
+      <section id="what">
+        <h1>What I can do for you</h1>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <img
+              class="icon"
+              src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/design.png"
+              alt="web design icon"
+            />
+            <h2>Design</h2>
+            <p>
+              I can handcraft your dream website on
+              <strong>Photoshop</strong> to make sure it's pixel-perfect before
+              a single line of code is written.
+            </p>
+          </div>
+          <div class="col-12  col-md-3">
+            <img
+              class="icon"
+              src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/develop.png"
+              alt="web development icon"
+            />
+            <h2>Develop</h2>
+            <p>
+              Already have a design on hand? I can bring it to life with
+              semantic and valid <strong>HTML</strong>, <strong>CSS</strong>,
+              and <strong>JavaScript</strong>.
+            </p>
+          </div>
+          <div class="col-12  col-md-3">
+            <img
+              class="icon"
+              src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/modernize.png"
+              alt="modern web icon"
+            />
+            <h2>Modernize</h2>
+            <p>
+              I can make your existing website more relevant in the marketplace
+              by converting it into a <strong>responsive site</strong> that can
+              adapt to all screen sizes&mdash;mobile, tablet, or desktop.
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <img
+              class="icon"
+              src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/upgrade.png"
+              alt="colorful web icon"
+            />
+            <h2>Upgrade</h2>
+            <p>
+              Need help moving to <strong>Squarespace</strong>, installing
+              <strong>WooCommerce</strong>, <strong>bbPress</strong>, or any
+              other plugin? Let me upgrade you.
+            </p>
+          </div>
+        </div>
+      </section>
 
-	<!--header-->
-	<header>
-		<div class="overlay"></div>
-		<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-			<source src="assets/video/bg3.mp4" type="video/mp4">
-		</video>
-		<section id="welcome" class="container-fluid">
-			<div id="message">
-			<h1>Hey. I'm Daniel.</h1>
-			<h2>I'm a <span data-toggle="tooltip" data-html="true" title="<h3><em>Sorta</em></h3>">web developer</span> &amp; <span data-toggle="tooltip" data-html="true" title="<h3><em>Sometimes</em></h3>">student</span> living in Utah Valley.</h2>
-		</div>
-		</section>
-	</header>
+      <!-- Portfolio -->
+      <section id="stuff" class="bg-primary">
+        <h1>Stuff I've Built</h1>
 
-	<div class="container-fluid">
-	<!-- Who I am -->
-	<section id="who" class="bg-primary">
-		<h1>I like building websites. I started as a kid &mdash; and I never stopped.</h1>
-		<div class="row">
-			<div class="col-12 col-md-9">
-				<p class="lead">I have 10 years of experience as a jack-of-all-trades managing <a class="text-white" href="http://prettymuchamazing.com/" target="_blank">a popular music blog</a>, which taught me valuable skills with <strong>HTML, CSS, QA, UX, content creation, content management, digital marketing, social media marketing, and project management</strong>.
-			</div>
-		</div>
-	</section>
-	<!-- What I do -->
-	<section id="what">
-		<h1>What I can do for you</h1>
-		<div class="row">
-			<div class="col-12 col-md-3">
-				<img class="icon" src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/design.png" alt="web design icon">
-				<h2>Design</h2>
-				<p>I can handcraft your dream website on <strong>Photoshop</strong> to make sure it's pixel-perfect before a single line of code is written.</p>
-			</div>
-			<div class="col-12  col-md-3">
-				<img class="icon" src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/develop.png" alt="web development icon">
-				<h2>Develop</h2>
-				<p>Already have a design on hand? I can bring it to life with semantic and valid <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
-			</div>
-			<div class="col-12  col-md-3">
-				<img class="icon" src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/modernize.png" alt="modern web icon">
-				<h2>Modernize</h2>
-				<p>I can make your existing website more relevant in the marketplace by converting it into a <strong>responsive site</strong> that can adapt to all screen sizes&mdash;mobile, tablet, or desktop.</p>
-			</div>
-			<div class="col-12 col-md-3">
-				<img class="icon" src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/upgrade.png" alt="colorful web icon">
-				<h2>Upgrade</h2>
-				<p>Need help moving to <strong>Squarespace</strong>, installing <strong>WooCommerce</strong>, <strong>bbPress</strong>, or any other plugin? Let me upgrade you.</p>
-			</div>
-		</div>
-	</section>
-	
-	<!-- Portfolio -->
-	<section id="stuff" class="bg-primary">
-		
-		<h1>Stuff I've Built</h1>
+        <div class="card-columns">
+          <div class="card border-primary">
+            <a href="https://codepen.io/danieltovar/pen/GvWjGE">
+              <img
+                src="assets/img/rbg-game.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">The Great RBG Guessing Game</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur deleniti ea dignissimos est ipsum impedit.
+              </p>
+            </div>
+          </div>
 
-		<div class="card-columns">
+          <div class="card border-primary">
+            <a href="https://codepen.io/danieltovar/pen/mMMOBR">
+              <img
+                src="assets/img/todo-list.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">jQuery TODO</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                perspiciatis qui maxime temporibus saepe necessitatibus nisi.
+                Unde.
+              </p>
+            </div>
+          </div>
 
-				<div class="card border-primary">
-					<a href="https://codepen.io/danieltovar/pen/GvWjGE">
-						<img src="assets/img/rbg-game.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">The Great RBG Guessing Game</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti ea dignissimos est ipsum impedit.</p>
-					</div>
-				</div>
+          <div class="card border-primary">
+            <a href="http://danieltovar.io/typetumult/">
+              <img
+                src="assets/img/typetumult.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Typetumult</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deserunt pariatur incidunt exercitationem laudantium.
+              </p>
+            </div>
+          </div>
 
-				<div class="card border-primary">
-					<a href="https://codepen.io/danieltovar/pen/mMMOBR">
-						<img src="assets/img/todo-list.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">jQuery TODO</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis qui maxime temporibus saepe necessitatibus nisi. Unde.</p>
-					</div>
-				</div>
+          <div class="card border-primary">
+            <a href="https://codepen.io/danieltovar/pen/yJAKxw">
+              <img
+                src="assets/img/wikiglass.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Wikiglass: Wikipedia Sleuther</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem, assumenda eveniet.
+              </p>
+            </div>
+          </div>
 
-				<div class="card border-primary">
-					<a href="http://danieltovar.io/typetumult/">
-						<img src="assets/img/typetumult.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">Typetumult</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt pariatur incidunt exercitationem laudantium.</p>
-					</div>
-				</div>
+          <div class="card border-primary">
+            <a href="https://codepen.io/danieltovar/pen/yJbBQP">
+              <img
+                src="assets/img/design-quotes.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Quotes on Design</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, molestiae?
+              </p>
+            </div>
+          </div>
 
-				<div class="card border-primary">
-					<a href="https://codepen.io/danieltovar/pen/yJAKxw">
-						<img src="assets/img/wikiglass.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">Wikiglass: Wikipedia Sleuther</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, assumenda eveniet.</p>
-					</div>
-				</div>
+          <div class="card border-primary">
+            <a href="https://codepen.io/danieltovar/pen/eWzdWe">
+              <img
+                src="assets/img/old-portfolio.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Fake Portoflio</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                omnis accusantium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				<div class="card border-primary">
-					<a href="https://codepen.io/danieltovar/pen/yJbBQP">
-						<img src="assets/img/design-quotes.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">Quotes on Design</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, molestiae?</p>
-					</div>
-				</div>
+      <!-- Contact -->
+      <section id="contact">
+        <h1>Contact</h1>
 
-				<div class="card border-primary">
-					<a href="https://codepen.io/danieltovar/pen/eWzdWe">
-						<img src="assets/img/old-portfolio.png" class="card-img-top" alt="...">
-					</a>
-					<div class="card-body">
-						<h5 class="card-title">Fake Portoflio</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, omnis accusantium.</p>
-					</div>
-				</div>	
-		</div>
-	</section>	
+        <div class="contact-container">
+          <p class="lead">
+            Want to work together?
+            <strong
+              ><a href="mailto:daniel@danieltovar.io"
+                >Drop me a line!</a
+              ></strong
+            >
+          </p>
 
-	<!-- Contact -->
-	<section id="contact">
-		<h1>Contact</h1>
+          <ul id="socials" class="list-unstyled">
+            <li>
+              <a href="https://github.com/danieltov"
+                ><i class="fab fa-github-alt"></i>
+                <strong>/danieltov</strong></a
+              >
+            </li>
+            <li>
+              <a href="https://utah.bootcampcontent.com/danieltovar"
+                ><i class="fab fa-gitlab"></i><strong>/danieltovar</strong></a
+              >
+            </li>
+            <li>
+              <a href="https://codepen.io/danieltovar/"
+                ><i class="fab fa-codepen"></i> <strong>/danieltovar</strong></a
+              >
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/danieltovar"
+                ><i class="fab fa-free-code-camp"></i>
+                <strong>/danieltovar</strong></a
+              >
+            </li>
+          </ul>
 
-		<div class="contact-container">
-			<p class="lead">Want to work together? <strong><a href="mailto:daniel@danieltovar.io">Drop me a line!</a></strong></p>
-		
-			<ul id="socials" class="list-unstyled">
-				<li><a href="https://github.com/danieltov"><i class="fab fa-github-alt"></i> <strong>/danieltov</strong></a></li>
-				<li><a href="https://utah.bootcampcontent.com/danieltovar"><i class="fab fa-gitlab"></i><strong>/danieltovar</strong></a></li>
-				<li><a href="https://codepen.io/danieltovar/"><i class="fab fa-codepen"></i> <strong>/danieltovar</strong></a></li>
-				<li><a href="https://www.freecodecamp.org/danieltovar"><i class="fab fa-free-code-camp"></i> <strong>/danieltovar</strong></a></li>
-			</ul>
+          <form>
+            <label for="name"></label
+            ><input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              class="form-control"
+            />
+            <label for="email"></label
+            ><input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@address.com"
+              class="form-control"
+            />
+            <button class="btn btn-lg btn-primary mt-3" type="submit" disabled>
+              Submit
+            </button>
+            <small class="d-block text-muted mt-3"
+              >You hate spam and I do too. I'll never share your email with
+              anyone.</small
+            >
+          </form>
+        </div>
+      </section>
 
-			<form>
-				<label for="name"></label><input type="text" name="name" id="name" placeholder="Name" class="form-control">
-				<label for="email"></label><input type="email" name="email" id="email" placeholder="email@address.com" class="form-control">
-				<button class="btn btn-lg btn-primary mt-3" type="submit" disabled>Submit</button>
-				<small class="d-block text-muted mt-3">You hate spam and I do too. I'll never share your email with anyone.</small>
-			</form>
-		</div>
+      <!-- Footer -->
+      <footer>
+        <small
+          >Coded in Utah by <a href="https://danieltovar.io">DT</a> &copy;
+          2018</small
+        >
+      </footer>
+    </div>
+    <!-- .container-fluid -->
 
-	</section>
-
-	<!-- Footer -->
-		<footer>
-			<small>Coded in Utah by <a href="https://danieltovar.io">DT</a> &copy; 2018</small>
-		</footer>
-	</div> <!-- .container-fluid -->
-
-
-
-	<!-- Load the CDN first -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<!-- Local JS -->
-		<script src="assets/js/script.js"></script>
-	</body>
+    <!-- Load the CDN first -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Local JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
