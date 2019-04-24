@@ -1,64 +1,22 @@
 /* 
-TO-DOs:
 
--- dotted underline spans in hero text!
+TODO: dotted underline spans in hero text!
 
 */
-
-/* 
-========= Sizes =========
-*/
-
-html {
-  font-size: 14px;
-}
-
-// Small devices (landscape phones)
-@media screen and (min-width: 576px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-// Medium devices (tablets)
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
-}
-
-// Large devices (desktops)
-@media screen and (min-width: 992px) {
-  html {
-    font-size: 20px;
-  }
-}
-
-// Extra large devices (large desktops)
-@media screen and (min-width: 1200px) {
-  html {
-    font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1824px) {
-  html {
-    font-size: 36px;
-  }
-}
 
 /* 
 ========= Global =========
 */
 
 html {
+  font-size: 16px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 200;
   text-align: center;
   color: #3b3b3b;
@@ -143,7 +101,8 @@ header .overlay {
 
 @media only screen and (max-width: 576px) {
   header {
-    background: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80") #3b3b3b no-repeat center center scroll;
+    background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80')
+      #3b3b3b no-repeat center center scroll;
     background-size: cover;
   }
 
@@ -171,15 +130,15 @@ header .overlay {
   font-style: italic;
   align-self: center;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
-#message>h1 {
+#message > h1 {
   font-size: 5rem;
   font-weight: 900;
 }
 
-#message>h2 {
+#message > h2 {
   font-size: 3rem;
   font-weight: 700;
 }
@@ -203,7 +162,7 @@ section#who {
   color: white;
 }
 
-section#who>div.row {
+section#who > div.row {
   align-self: center;
   justify-content: center;
 }
