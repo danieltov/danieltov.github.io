@@ -39,17 +39,17 @@
         </video>
         <section id="welcome" class="container-fluid">
             <div id="message">
-                <h1>Hey. I'm Daniel.</h1>
-                <h2>
-                    I'm a
-                    <span data-toggle="tooltip" data-html="true" title=""
-                        data-original-title="<h3>@UVU Web Development Services</h3>">front-end web
-                        developer</span>
-                    &amp;
-                    <span data-toggle="tooltip" data-html="true" title=""
-                        data-original-title="<h3>Web Design &amp; Development, BS @ UVU,<br/>Full-Stack Coding Bootcamp @ U of U,<br/>plus lots &amp; lots of Udemy courses.</h3>">student</span>
-                    living in Utah Valley.
-                </h2>
+                <h2 id="typed"></h2>
+                <div class="sr-only">
+                    <h1>Hey. I'm Daniel.</h1>
+                    <h2>I'm a
+                        web
+                        developer
+                        &amp;
+                        student
+                        living in Utah Valley.</h2>
+                    </h2>
+                </div>
             </div>
         </section>
     </header>
@@ -83,7 +83,7 @@
         <section id="what">
             <h1>What I can do for you</h1>
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 lazy1 col-md-3">
                     <img class="icon"
                         src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/design.png"
                         alt="web design icon" />
@@ -95,7 +95,7 @@
                         written.
                     </p>
                 </div>
-                <div class="col-12  col-md-3">
+                <div class="col-12 lazy2  col-md-3">
                     <img class="icon"
                         src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/develop.png"
                         alt="web development icon" />
@@ -107,7 +107,7 @@
                         <strong>JavaScript</strong>.
                     </p>
                 </div>
-                <div class="col-12  col-md-3">
+                <div class="col-12 lazy3 col-md-3">
                     <img class="icon"
                         src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/modernize.png"
                         alt="modern web icon" />
@@ -119,7 +119,7 @@
                         all screen sizes&mdash;mobile, tablet, or desktop.
                     </p>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 lazy4 col-md-3">
                     <img class="icon"
                         src="https://res.cloudinary.com/ldanieltvr/image/upload/v1502413094/30days/d1portfolio/upgrade.png"
                         alt="colorful web icon" />
@@ -412,6 +412,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"
+        integrity="sha256-F6VRM94CIE3Kv2zkAtbzlViDfZ3HMaIgusIcFBPIjiU=" crossorigin="anonymous"></script>
     <!-- Local JS -->
     <script src="assets/js/script.js"></script>
 </body>

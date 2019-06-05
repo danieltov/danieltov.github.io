@@ -149,6 +149,18 @@ header .overlay {
     background-size: 10px 3px;
 }
 
+#typed {
+    display: inline-block;
+}
+
+.typed-cursor {
+    font-size: 3em;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
 /* 
 ========= Who I Am =========
 */
