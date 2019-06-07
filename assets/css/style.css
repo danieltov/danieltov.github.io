@@ -125,11 +125,11 @@ header .overlay {
 }
 
 #message {
+    width: 70%;
     color: rgb(255, 255, 255);
-    font-style: italic;
     align-self: center;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #message > h1 {
@@ -150,7 +150,7 @@ header .overlay {
 }
 
 #typed {
-    display: inline-block;
+    display: inline;
 }
 
 .typed-cursor {
@@ -280,6 +280,26 @@ footer small a,
 footer small a:hover {
     font-weight: 700;
     text-decoration: none;
+}
+
+/* 
+========= Modal =========
+*/
+
+.modal-header {
+    border: none;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.modal-footer {
+    border: none;
+}
+
+.modal-dialog {
+    max-width: 50% !important;
 }
 
 /* 
