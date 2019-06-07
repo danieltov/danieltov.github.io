@@ -20,7 +20,7 @@ $(function () {
 
   $(window).scroll(function () {
     if (
-      $(document).scrollTop() > 200 &&
+      $(document).scrollTop() > 300 &&
       $('#newBlog').attr('displayed') === 'false'
     ) {
       $('#newBlog').modal('show');
