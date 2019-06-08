@@ -3,7 +3,7 @@ $(function () {
     strings: [
       'Hey.',
       "I'm Daniel.",
-      'I am a web developer at Utah Valley University.',
+      'I am a web developer at UVU.',
       'I build cool things with HTML5.',
       'I build cool things with CSS3.',
       'I build cool things with JavaScript.',
@@ -14,7 +14,7 @@ $(function () {
       'Talk to me about working on a project together.'
     ],
     smartBackspace: true,
-    typeSpeed: 45,
+    typeSpeed: 60,
     loop: true
   });
 
